@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=2748&auto=format&fit=crop&ixlib=rb-.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+
+
+
+}
+
+.FAQ-FORM {
+
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  color: black;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 0.3rem;
+  width: 50%;
+
+
+
+
+
+
+
+}
+
+
+#title {
+
+  text-align: center;
+  font-weight: 800;
+}
+
+li {
+
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+
+}
+
+#list-1,
+#list-2,
+#list-3 {
+
+  display: none;
+
+}
+
+li:hover {
+
+  color: lightpink;
+  cursor: pointer;
+}
+
+
+
+@media(min-width:646px) {
+
+  .FAQ-FORM {
+    width: 50%
+  }
+
+}
